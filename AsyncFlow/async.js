@@ -142,7 +142,7 @@ promise1.then((result1) => {
 async function asyncTest() {
     //wrapping with try and catch scopes will allow you to catch thrown errors and promise rejects easily.
     try {
-        //await operator will hult the execution of the async function code.
+        //await operator will hold the execution of the async function code.
         //execution will continue with Promise's resolve function returned with a result.
         //https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions
 
